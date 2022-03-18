@@ -1,0 +1,31 @@
+Aprendemos na Aula04: ex001.html
+
+        . background-color: cor - Muda a cor de fundo
+        . color: cor - Muda a cor do caracter
+        . font: estilo tamanho família - Muda a fonte
+        . h1 {color: cor} - Muda a cor da tag h1
+
+	No HTML:
+	Colocamos uma tag h1 e um parágrafo p
+
+        Aqui utilizamos no JavaScript interno
+        . window.alert - mostrar uma mensagem com um popup na tela 
+        . window.confirm - popup com uma pergunta de 2 opções (OK, Cancelar)
+        . window.prompt - popup que recebe uma string na tela
+
+Aprendemos na Aula06: ex002.html
+
+        Aqui utilizamos no CSS interno 
+        . background-color: cor - Muda a cor de fundo
+        . color: cor - Muda a cor do caracter
+        . font: tipo tamanho família - Muda a fonte
+        . h1 {color: cor} - Muda a cor da tag h1
+
+	No HTML:
+	Colocamos uma tag h1 e um parágrafo p
+
+        Aqui utilizamos no JavaScript interno
+        . Criamos a variável nome (var nome =) e incluimos dentro dela um window.prompt 
+          solicitando uma informação (popup)
+        . window.alert - Fizemos um alerta (popup) concatenando (+) um texto com o 
+          conteúdo informado na variável nome

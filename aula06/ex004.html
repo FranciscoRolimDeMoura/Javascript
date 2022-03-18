@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4</title>
+</head>
+
+<body>
+    <!-- Aqui JavaScript -->
+    <script>
+        var nome = window.prompt('Digite seu nome: ')
+        var n1 = Number(window.prompt('Informe o salário mínimo: '))
+        var n2 = Number(window.prompt('Informe seu salário atual: '))
+        document.write(n1, "<br>")
+        document.write(n2, "<br>")
+        document.write(`Seu nome tem ${nome.length} letras.<br>`)
+        document.write(`Em letras maiúsculas fica ${nome.toLocaleUpperCase()}<br>`)
+        document.write(`Em letras minúsculas fica ${nome.toLocaleLowerCase()}<br>`)
+        //Conversão de números e ficando duas casas 
+        //decimais mascarando . e , mas aqui o ponto 
+        //dos milhares não aparece
+        document.write(`O valor é R$ ${n1.toFixed(2).replace('.', ',')}<br>`)
+
+        //Conversão de números e ficando duas casas 
+        //decimais mascarando . e , mas aqui o ponto 
+        //dos milhares aparece usando CSS
+        document.write(`O Salário é ${n2.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL' })}<br>`)
+        document.write("Pronto")  //Aqui tem que ser entre aspas duplas
+
+        // ORDEM DE PRECEDÊNCIA               OPERADORES
+        // ()
+        // **
+        // *  /  %                            ARITMÉTICOS
+        // +  -
+
+        // > < >= <=                          RELACIONAIS
+
+        // !
+        // &&                                  LÓGICOS
+        // ||
+
+        // é tal coisa ? se sim : se não       TERNÁRIO
+
+    </script>
+</body>
+
+</html>
